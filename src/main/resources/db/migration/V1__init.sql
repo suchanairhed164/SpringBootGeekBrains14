@@ -1,3 +1,8 @@
+CREATE TABLE items (id serial, title varchar(100));
+
+INSERT INTO items (title) VALUES ('Ball'), ('Teddy'), ('Negative six'), ('Frostmourne');
+
+
 CREATE TABLE users
 (
     username VARCHAR(50)  NOT NULL,
